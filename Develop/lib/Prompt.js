@@ -149,7 +149,7 @@ class Prompt {
                     {
                     type: "input",
                     message: "What is the employee's office number?",
-                    name: "email"
+                    name: "officeNumber"
                     },
             ])
             .then ((answers) => {

@@ -20,12 +20,12 @@ const generateCards = templateData => {
                 <div class="header-wrapper">
                     <h1>Team Profiles</h1>
                 </div>
-                <div class = "grid">
+                <div class = "container">
                 ${templateData.map((emp) => {
         return `
-                    <div>
+                    <div class = "individualContainer">
                         <h2>${emp.getName()}</h2>
-                        <h3>${emp.getRole()}</h3>
+                        <h4>${emp.getRole()}</h4>
                         <p>${emp.getId()}</p>
                         <p>Email: <a href="mailto:https://${emp.getEmail()}">${emp.getEmail()}</a></p>
                         <p>${user(emp)}</p>
@@ -48,6 +48,8 @@ module.exports = templateData => {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"/>
         <title>Team Profiles</title>
          <link rel="stylesheet" href="style.css">
         </head>   
