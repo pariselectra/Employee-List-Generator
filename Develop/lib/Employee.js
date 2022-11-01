@@ -1,36 +1,26 @@
 class Employee {
-    constructor (employeeType, employeeName, employeeID, email, officeNumber, github){
-    this.employeeType = employeeType;
-    this.employeeName = employeeName;
-    this.employeeID = employeeID;
-    this.email = email;
-    this.officeNumber = officeNumber;
-    this.github = github;}
-}
+    constructor (name, id, email){
+        this.name = name;
+        this.id = id;
+        this.email = email;
+    }
 
-getEmployeeType () {
-    return this.employeeType;
-}
+    getName() {
+        return this.name;
+    }
+    
+    getId() {
+        return this.id;
+    }
 
-getEmployeeName () {
-    return this.employeeName;
-}
+    getEmail() {
+        return this.email;
+    }
 
-getEmployeeID () {
-    return this.employeeID;
-}
+    getRole(){
+        return 'Employee'
+    }
 
-getEmail () {
-    return this.email;
 }
-
-getOfficeNumber () {
-    return this.officeNumber;
-}
-
-getGithub () {
-    return this.github;
-}
-
 module.exports = Employee;
 
