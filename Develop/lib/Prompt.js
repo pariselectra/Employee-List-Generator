@@ -92,7 +92,7 @@ class Prompt {
                     }
                 ])
                 .then ((answers) => {
-                    this.employees.push(new Intern(answers.employeeName, answers.employeeID, answers.employeeEmail, answers.school));
+                    this.employees.push(new Intern(answers.employeeName, answers.employeeID, answers.email, answers.school));
                     this.addEmployee();
                 })
             
@@ -123,7 +123,7 @@ class Prompt {
                     }
                 ])
                 .then ((answers) => {
-                    this.employees.push(new Engineer(answers.employeeName, answers.employeeID, answers.employeeEmail, answers.github));
+                    this.employees.push(new Engineer(answers.employeeName, answers.employeeID, answers.email, answers.github));
                     this.addEmployee();
                 })
         }
@@ -153,7 +153,7 @@ class Prompt {
                     },
             ])
             .then ((answers) => {
-                this.employees.push(new Manager(answers.employeeName, answers.employeeID, answers.employeeEmail, answers.officeNumber));
+                this.employees.push(new Manager(answers.employeeName, answers.employeeID, answers.email, answers.officeNumber));
                 this.addEmployee();
             })
         }
