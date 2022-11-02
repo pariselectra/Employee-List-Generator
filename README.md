@@ -17,7 +17,7 @@ This challenge was centered around object oriented programing. In addition to cr
 
 ![Final HTML site creation example](./Develop/images/Screen%20Shot%202022-11-02%20at%2012.04.43%20AM.png)
 
-![Screen Recording of the backend framework](./Develop/images/Screen%20Recording%202022-11-01%20at%2011.59.53%20PM.mov)
+Download Screen Recording Here: https://github.com/pariselectra/Employee-List-Generator/blob/main/Develop/images/Screen%20Recording%202022-11-01%20at%2011.59.53%20PM.mov
 
 ## License
 MIT License
@@ -25,6 +25,7 @@ MIT License
 
 ## Contibutions
 Reference: https://github.com/ajcuddeback
+I used this students' work as reference from my own project creation.
 
 ## Testing
 
